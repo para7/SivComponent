@@ -30,7 +30,6 @@ void Main()
     manager.RegisterScene<Matching>("Matching");
     manager.RegisterScene<Game>("Game");
 
-    //はやくこれを消したい
     InstantiateEntry_Game(manager.GetCommon());
     LoadAssets();
 

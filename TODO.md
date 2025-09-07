@@ -1,0 +1,9 @@
+
+RequireComponentが欲しい
+
+Prefabの登録が設計悪いので各クラスに分散させられるような仕組みが必要　シーン登録時にセットで登録？
+
+衝突判定エンジンに不具合アリ
+コライダー（形状）をオフにしても反応するはず
+IColliderからGetActiveが取れないのでCollisionObjectの作り直し
+
